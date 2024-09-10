@@ -25,9 +25,14 @@ static const bool TOP_STATUSBAR = false;
 /* levels (in percent) to use when zooming via '-' and '+':
  * (first/last value is used as min/max zoom level)
  */
+// static const float zoom_levels[] = {
+// 	 12.5,  25.0,  50.0,  75.0,
+// 	100.0, 150.0, 200.0, 400.0, 800.0,
+// 	1200.0, 2000.0
+// };
 static const float zoom_levels[] = {
-	 12.5,  25.0,  50.0,  75.0,
-	100.0, 150.0, 200.0, 400.0, 800.0
+	10.0,30.0,60.0,120.0,220.0,
+	370.0,600.0,925.0,1380.0,2000.0
 };
 
 /* default slideshow delay (in sec, overwritten via -S option): */
