@@ -1,2 +1,2 @@
 #!/bin/sh
-make && sudo make install
+sudo make install
